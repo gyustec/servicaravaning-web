@@ -4,23 +4,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Servi Caravaning | Parking seguro para caravanas y autocaravanas</title>
-  <meta name="description" content="Parking seguro para caravanas y autocaravanas en el sur de Madrid. Videovigilancia, acceso controlado, plazas amplias y atención directa por teléfono o WhatsApp." />
+  <meta name="description" content="Parking seguro para caravanas y autocaravanas en Humanes de Madrid. Videovigilancia, acceso controlado, plazas amplias y atención directa por teléfono o WhatsApp." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
     <a class="brand" href="#inicio" aria-label="Servi Caravaning">
-      <img src="assets/logo.png" alt="Servi Caravaning" />
+      <img src="logo.png" alt="Servi Caravaning" />
     </a>
     <nav class="nav" aria-label="Navegación principal">
       <a href="#servicios">Servicios</a>
       <a href="#espacio">Instalaciones</a>
+      <a href="#ubicacion">Ubicación</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a class="header-cta" href="tel:+34614165198">Llamar ahora</a>
+    <a class="header-cta" href="tel:+34614165198">614 165 198</a>
   </header>
 
   <main id="inicio">
@@ -28,9 +29,11 @@
       <div class="hero-bg" role="img" aria-label="Parking de caravanas Servi Caravaning"></div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <div class="eyebrow">Sur de Madrid</div>
+        <img class="hero-logo" src="logo.png" alt="Servi Caravaning" />
+        <div class="eyebrow">Humanes de Madrid · Sur de Madrid</div>
         <h1>Tu caravana, en las mejores manos.</h1>
         <p>Parking seguro para caravanas y autocaravanas. Un espacio cómodo, vigilado y pensado para guardar tu vehículo con tranquilidad durante todo el año.</p>
+        <a class="address-pill" href="https://www.google.com/maps/search/?api=1&query=C.+Malva,+4,+28970+Humanes+de+Madrid,+Madrid" target="_blank" rel="noopener">📍 C. Malva, 4 · 28970 Humanes de Madrid</a>
         <div class="hero-actions">
           <a class="btn primary" href="tel:+34614165198">📞 Llamar: 614 165 198</a>
           <a class="btn whatsapp" href="https://wa.me/34614165198" target="_blank" rel="noopener">💬 WhatsApp</a>
@@ -42,7 +45,7 @@
       <div><strong>24/7</strong><span>Videovigilancia</span></div>
       <div><strong>Acceso</strong><span>Controlado</span></div>
       <div><strong>Plazas</strong><span>Amplias</span></div>
-      <div><strong>Contacto</strong><span>Teléfono y WhatsApp</span></div>
+      <div><strong>Humanes</strong><span>C. Malva, 4</span></div>
     </section>
 
     <section id="servicios" class="section services">
@@ -68,8 +71,8 @@
         </article>
         <article class="card">
           <div class="icon">📍</div>
-          <h3>Fácil acceso</h3>
-          <p>Ubicación estratégica en el sur de Madrid, pensada para entrar y salir sin complicaciones.</p>
+          <h3>Buena ubicación</h3>
+          <p>En C. Malva, 4, Humanes de Madrid, con acceso cómodo desde el sur de Madrid.</p>
         </article>
       </div>
     </section>
@@ -91,15 +94,31 @@
         </div>
       </div>
       <div class="image-card">
-        <img src="assets/night.png" alt="Vista nocturna de Servi Caravaning" />
+        <img src="night.png" alt="Vista nocturna de Servi Caravaning" />
       </div>
     </section>
 
     <section class="gallery-section" aria-label="Galería de instalaciones">
       <div class="gallery-grid">
-        <img src="assets/hero.png" alt="Vista aérea del parking" />
-        <img src="assets/plan.png" alt="Vista general del parking" />
-        <img src="assets/gallery.png" alt="Distribución de plazas" />
+        <img src="hero.png" alt="Vista aérea del parking" />
+        <img src="plan.png" alt="Vista general del parking" />
+        <img src="gallery.png" alt="Distribución de plazas" />
+      </div>
+    </section>
+
+    <section id="ubicacion" class="location section">
+      <div class="location-box">
+        <div>
+          <span class="eyebrow dark">Ubicación</span>
+          <h2>Estamos en Humanes de Madrid.</h2>
+          <p>Un punto cómodo para clientes de Humanes, Fuenlabrada, Parla, Getafe, Leganés y otras zonas del sur de Madrid.</p>
+        </div>
+        <div class="location-card">
+          <strong>Servi Caravaning</strong>
+          <span>C. Malva, 4</span>
+          <span>28970 Humanes de Madrid, Madrid</span>
+          <a class="btn primary small" href="https://www.google.com/maps/search/?api=1&query=C.+Malva,+4,+28970+Humanes+de+Madrid,+Madrid" target="_blank" rel="noopener">📍 Cómo llegar</a>
+        </div>
       </div>
     </section>
 
@@ -124,7 +143,11 @@
   </main>
 
   <footer class="footer">
-    <div><strong>Servi Caravaning</strong><span>Parking seguro para caravanas y autocaravanas en el sur de Madrid</span></div>
+    <div><strong>Servi Caravaning</strong><span>Parking seguro para caravanas y autocaravanas.</span></div>
+    <div class="footer-address">
+      <span>📍 C. Malva, 4</span>
+      <span>28970 Humanes de Madrid, Madrid</span>
+    </div>
     <div class="footer-contact">
       <a href="tel:+34614165198">614 165 198</a>
       <a href="mailto:info@servicaravaning.com">info@servicaravaning.com</a>
