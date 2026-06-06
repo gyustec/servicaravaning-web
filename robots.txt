@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://servicaravaning.com/sitemap.xml
